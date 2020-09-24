@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Join our Science newsletter to receive more such interesting information!
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -31,16 +31,12 @@ function Footer() {
             <h2>About Us</h2>
             <Link to='/sign-up'>How it works</Link>
             <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
             <Link to='/'>Terms of Service</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
@@ -48,15 +44,13 @@ function Footer() {
             <h2>Videos</h2>
             <Link to='/'>Submit Video</Link>
             <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <a href='https://www.instagram.com/k_darp/'target='_blank' rel="noopener noreferrer">Instagram</a>
+            <a href='https://www.facebook.com/darpan.roks/' target='_blank' rel="noopener noreferrer">Facebook</a>
+            <a href='https://www.linkedin.com/in/darpan-kumari-007/' target='_blank' rel="noopener noreferrer">LinkedIn</a>
+            <a href='https://twitter.com/DarpanKumari1' target='_blank' rel="noopener noreferrer">Twitter</a>
           </div>
         </div>
       </div>
@@ -70,46 +64,42 @@ function Footer() {
           </div>
           <small class='website-rights'>Darpan Kumari © 2020</small>
           <div class='social-icons'>
-            <Link
+            <a
               class='social-icon-link facebook'
-              to='/'
+              href='https://www.facebook.com/darpan.roks/'
               target='_blank'
+              rel="noopener noreferrer"
               aria-label='Facebook'
             >
               <i class='fab fa-facebook-f' />
-            </Link>
-            <Link
+            </a>
+            <a
               class='social-icon-link instagram'
-              to='/'
+              href='https://www.instagram.com/k_darp/'
               target='_blank'
+              rel="noopener noreferrer"
               aria-label='Instagram'
             >
               <i class='fab fa-instagram' />
-            </Link>
-            <Link
-              class='social-icon-link youtube'
-              to='/'
-              target='_blank'
-              aria-label='Youtube'
-            >
-              <i class='fab fa-youtube' />
-            </Link>
-            <Link
+            </a>
+            <a
               class='social-icon-link twitter'
-              to='/'
+              href='https://twitter.com/DarpanKumari1'
               target='_blank'
+              rel="noopener noreferrer"
               aria-label='Twitter'
             >
               <i class='fab fa-twitter' />
-            </Link>
-            <Link
-              class='social-icon-link twitter'
-              to='/'
+            </a>
+            <a
+              class='social-icon-link linkedin'
+              href='https://www.linkedin.com/in/darpan-kumari-007/'
               target='_blank'
+              rel="noopener noreferrer"
               aria-label='LinkedIn'
             >
               <i class='fab fa-linkedin' />
-            </Link>
+            </a>
           </div>
         </div>
       </section>
